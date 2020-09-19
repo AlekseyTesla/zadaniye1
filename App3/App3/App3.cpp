@@ -1,4 +1,5 @@
 ﻿#include <stdio.h>
+#include <stdlib.h>
 int main(void) {
 	int X, x, y, z, sum;
 	printf("Vvedite chislo ");
@@ -8,5 +9,6 @@ int main(void) {
 	z = X / 100;
 	sum = x + y + z;
 	printf("%d", sum);
+	system("pause");
 	return 0;
 }

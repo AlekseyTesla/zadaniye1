@@ -10,5 +10,6 @@ int main(void) {
 	scanf_s("%d", &b);
 	c = sqrt(pow(a, 2) + pow(b, 2));
 	printf("%f", c);
+	system("pause");
 	return 0;
 }

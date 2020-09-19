@@ -1,4 +1,5 @@
 ﻿#include <stdio.h>
+#include <stdlib.h>
 int main(void) {
 	int X, Y, inumber, fnumber;
 	printf("Vvedite X ");
@@ -9,5 +10,6 @@ int main(void) {
 	fnumber = X % Y;
 	printf("%d\n", inumber);
 	printf("%d", fnumber);
+	system("pause");
 	return 0;
 }

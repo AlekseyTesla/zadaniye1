@@ -15,5 +15,6 @@ int main(void) {
 	ac = sqrt(pow((xb - xc), 2) + pow((yb - yc), 2));
 	S = ab + bc + ac;
 	printf("%f", S);
+	system("pause");
 	return 0;
 }
