@@ -1,6 +1,5 @@
 ﻿#include <stdio.h>
-#include <math.h>
-int main ()
+int main(void)
 {
 	int X, last_number;
 	scanf_s("%d", &X);
